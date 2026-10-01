@@ -30,7 +30,7 @@ public class TC01IfUserIsInvalidTryAgainTest
 
 
 
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         js = (IJavaScriptExecutor)driver;
         vars = new Dictionary<string, object>();
     }
